@@ -6,7 +6,7 @@
  
 
 <item>
-<title>[COLOR yellow]Aerobic by Delia[/COLOR]</title>
+<title>[COLOR white]DEPORTE BY DELIA[/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>https://i.imgur.com/xUKKqIF.jpg</thumbnail>
 <fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
@@ -78,7 +78,7 @@
 -->
 
 <item>
-<title>[COLOR yellow]Gymvirtual[/COLOR]</title>
+<title>[COLOR white]GYMVIRTUAL[/COLOR]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -118,7 +118,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR yellow]Terapias Corporales[/COLOR]</title>
+<title>[COLOR white]TERAPIAS CORPORALES[/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>https://i.imgur.com/x47VrKX.jpg</thumbnail>
 <fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
