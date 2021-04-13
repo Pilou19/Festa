@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+
+
+<item>
+<title>[COLOR gold]FESTA [COLOR white]TV TDT[/COLOR]</title>
+<externallink>https://www.tdtchannels.com/lists/tv.m3u8</externallink>
+<link>na</link>
+<thumbnail>https://i.imgur.com/G9BQ0xS.png</thumbnail>  
+<fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR gold]FESTA [/COLOR][COLOR white]RADIOS[/COLOR]</title>
+<link>$doregex[makelist1]</link>
+<regex>
+ <name>makelist1</name>   
+ <listrepeat><![CDATA[
+   <title>[COLOR white][makelist1.param5] [COLOR yellow]([makelist1.param3])[/COLOR]</title>
+    <link>[makelist1.param2]</link>
+    <thumbnail>https:[makelist1.param4]</thumbnail>
+   <fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
+ <info></info>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):
+  count=10;pn=1;data=[]
+  while pn <= int(count):
+    page='https://onlineradiobox.com/es/?p='+str(pn)+'';source=requests.get(page).content.decode('ascii','ignore')
+    data +=re.findall('title="([^"]+).*?stream="([^"]+).*?streamType="(.*?)".*?radioImg="([^"]+).*?radioName="([^"]+)',source);pn +=1
+  return data]]></expres>
+ <page></page>
+ <cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i.imgur.com/6vMQrSn.png</thumbnail>
+<fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
+</item>
+
+
+
+</items>
+
