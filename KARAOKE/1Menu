@@ -113,12 +113,19 @@ sólo da acesso a ésas webs, éstas son las responsables de los contenidos"[/CO
 <item>
 <title>[COLOR deeppink]NOVEDADES[/COLOR]</title>
 <link>http://ignorame</link>
-<externallink>https://pastebin.com/raw/ewgZu1Ug</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/KARAOKE/Novedades</externallink>
 <thumbnail>https://i.imgur.com/s0gCdfK.jpg</thumbnail>
 <fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
 </item>
-
-
+---------------------------------------------------------------------------------------------------------------------
+<item>
+<title>[COLOR white]KARAOKE KIDS[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/M9PZPni.jpg</thumbnail>
+<fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/KARAOKE/Karaoke.Kids</externallink>
+</item>
+---------------------------------------------------------------------------------------------------------------------------
 <item>
 <title>[COLOR white]BALADAS[/COLOR]</title>
 <link>$doregex[link_inteligente]</link>
@@ -318,8 +325,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR  white]DISNEY[/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>https://i.imgur.com/Q07weiU.jpg</thumbnail>
- <fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
-<externallink>https://pastebin.com/raw/yAWVhhLE</externallink>
+<fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/KARAOKE/Disney</externallink>
 </item>
 -----------------------------------------------------------------------------------------------------
 <item>
@@ -365,8 +372,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR white]DUETOS[/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>https://i.imgur.com/SAHIBEw.jpg</thumbnail>
- <fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
-<externallink>https://pastebin.com/raw/UbqHx8qi</externallink>
+<fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/KARAOKE/Duetos</externallink>
 </item>
 ----------------------------------------------------------------------------------------------------------------
 <item>
@@ -599,18 +606,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>https://i.imgur.com/JosKzEU.jpg</thumbnail>
 <fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
 </item>
 --------------------------------------------------------------------------------------------------------------------------
-<item>
-<title>[COLOR white]KARAOKE KIDS[/COLOR]</title>
-<link>http://ignorame</link>
-<thumbnail>https://i.imgur.com/M9PZPni.jpg</thumbnail>
- <fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
-<externallink>https://pastebin.com/raw/E29QAfWa</externallink>
-</item>
----------------------------------------------------------------------------------------------------------------------------
 <item>
 <title>[COLOR white]MIX  2017[/COLOR]</title>
 <link>$doregex[link_inteligente]</link>
@@ -694,7 +693,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignorame</link>
 <thumbnail>https://i.imgur.com/DJTUh6s.jpg</thumbnail>
 <fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
-<externallink>https://pastebin.com/raw/CsteWkW6</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/KARAOKE/Catalan</externallink>
 </item>
 ------------------------------------------------------------------------------------------------------------
 <item>
@@ -702,7 +701,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignorame</link>
 <thumbnail>https://i.imgur.com/vvrCHtt.jpg</thumbnail>
 <fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
-<externallink>https://pastebin.com/raw/8UN7BeGD</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/KARAOKE/Euskera</externallink>
 </item>
 -------------------------------------------------------------------------------------------------------------
 <item>
@@ -749,7 +748,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignorame</link>
 <thumbnail>https://i.imgur.com/ZHtrszh.jpg</thumbnail>
 <fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
-<externallink>https://pastebin.com/raw/NZL9tSXt</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/KARAOKE/Galego</externallink>
 </item>
 ---------------------------------------------------------------------------------------------------------------------
 <item>
@@ -835,7 +834,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignorame</link>
 <thumbnail>https://i.imgur.com/4VXSSQ3.jpg</thumbnail>
 <fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
-<externallink>https://pastebin.com/raw/ipRg8nLf</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/KARAOKE/Pop</externallink>
 </item>
 ------------------------------------------------------------------------------------------------------------------
 <item>
@@ -877,6 +876,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
 </item>
 ----------------------------------------------------------------------------------------------------------------------------
+<item>
+<title>[COLOR  white]ROCK[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/Dc89SbY.jpg</thumbnail>
+<fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/KARAOKE/Rock</externallink>
+</item>
+---------------------------------------------------------------------------------------------------------------
 <item>
 <title>[COLOR white]RANCHERAS[/COLOR]</title>
 <link>$doregex[link_inteligente]</link>
@@ -1033,14 +1040,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
 </item>
 --------------------------------------------------------------------------------------------------------------
-<item>
-<title>[COLOR  white]ROCK[/COLOR]</title>
-<link>http://ignorame</link>
-<thumbnail>https://i.imgur.com/Dc89SbY.jpg</thumbnail>
- <fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
-<externallink>https://pastebin.com/raw/pm3T9NiN</externallink>
-</item>
----------------------------------------------------------------------------------------------------------------
+
 <item>
 <title>[COLOR white]RUMBAS Y SEVILLANAS[/COLOR]</title>
 <link>$doregex[link_inteligente]</link>
@@ -1165,6 +1165,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
 <externallink>https://pastebin.com/raw/yFWW8KAu</externallink>
 </item>
+
+
+
 
 
 </items>
