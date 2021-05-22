@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
+ <items>
+
+<item>
+<title>[COLOR lightseagreen]SeriesPapaya  [COLOR lightseagreen][[COLOR white]Categorias 2[COLOR lightseagreen]][/COLOR] </title>
+<link>$doregex[lou]</link>
+<regex>
+<name>lou</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][lou.param3] [COLOR lightskyblue][lou.param4][/COLOR]</title>
+<thumbnail>https://i1.sndcdn.com/avatars-z9yL39jiY6uFRH5y-694iFw-t500x500.jpg</thumbnail>
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+<link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64,shutil,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+    url = 'https://seriespapaya.fun/series-de-tv'
+    agente = {'User-Agent': AgenteCristal(), 'Referer': 'https://seriespapaya.fun/series-de-tv'}
+    extraer = requests.get(url, headers=agente)
+    ExpresCristal = re.findall('(?s)class="cat-item.*?<.*?href="(.*?category/).*?(.*?)".*?>(.*?)<.*?a>(.*?)<.*?', extraer.text)
+    return ExpresCristal
+
+def AgenteCristal():
+    url= 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/AgenteCristal'
+    agente = {'User-Agent': 'Mozilla/5.0'}
+    extraer = requests.get(url, headers=agente)
+    AgenteCristal = re.findall("(.*?)CRISTAL", six.ensure_str(extraer.text))[0]
+    return AgenteCristal
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][makelist2.param1] [COLOR aqua][makelist2.param2][/COLOR]</title>
+<info>[COLOR white][makelist2.param1] [COLOR aqua][makelist2.param2][/COLOR]</info>
+<link>$doregex[temp]</link>
+<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)class="entry-header">.*?<.*?entry-title">(.*?)<.*?TMDB</span>(.*?)<.*?src="(.*?)".*?href="(.*?)"]]></expres>
+<page>https://seriespapaya.fun/category/[lou.param2]</page>
+<nextpage><![CDATA[href="(.*?)".*?SIGUIENTE]]></nextpage>
+</regex>
+<regex>
+<name>temp</name>
+<listrepeat><![CDATA[
+<title>[COLOR lightskyblue][temp.param2] [temp.param3][/COLOR]</title>
+<link>$doregex[cap]</link>
+<thumbnail>[serie.param3]</thumbnail>
+<fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)choose-season">.*?<.*? href="(.*?)".*?right">(.*?)<.*?inline">(.*?)<.*?]]></expres>
+<page>[makelist2.param4]</page>
+</regex>
+<regex>
+<name>cap</name>
+<listrepeat><![CDATA[
+<title>[COLOR lightskyblue][B] [cap.param1][/B] [COLOR gold]Entra a los servidores[/COLOR]</title>
+<link>$doregex[server]</link>
+<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)class="num-epi">.*?<.*?entry-title">(.*?)<.*?href="(.*?episodio/).*?(.*?)".*?]]></expres>
+<page>[temp.param1]</page>
+</regex>
+<regex>
+<name>server</name>
+<listrepeat><![CDATA[
+<title>[COLOR lightskyblue][B][server.param2] [server.param3][/B] [COLOR white][server.param4] [COLOR gold][server.param5][/COLOR]</title>
+<link>$doregex[link_final]</link>
+<thumbnail>[serie.param3]</thumbnail>
+<fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)<li><a class="btn.*?".*?href="(.*?)".*?>(.*?)<.*?span>(.*?)<.*?server">(.*?)-.*?(.*?)<.*?]]></expres>
+<page>[cap.param2][cap.param3]</page>
+</regex>
+<regex>
+ <name>link_final</name>
+<expres><![CDATA[#$pyFunction
+url = 'https://seriespapaya.fun/episodio/[cap.param2][server.param1]'
+import xbmc,requests,re,xbmcaddon
+def GetLSProData(page_data,Cookie_Jar,m,url=url):#cLrJIhsDApL
+
+  html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': 'https://seriespapaya.fun/episodio/amor-y-anarquia-1x4'}, verify=False).text
+  data = re.findall('(?s)<iframe data-src="(.*?)".*?', html)[0]
+  return data
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+
+
+
+
+
+</items>
