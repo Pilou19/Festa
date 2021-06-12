@@ -42,7 +42,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/Q07weiU.jpg</thumbnail>
 <fanart>http://wallpapercave.com/wp/8C95UpE.jpg</fanart>
 </item>
--------------------------------------------------------------------------------------------------
+
 <item>
 <title>[COLOR white]DISNEY [COLOR chartreuse](English)[/COLOR]</title>
 <link>$doregex[link_inteligente]</link>
