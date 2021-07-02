@@ -438,3 +438,58 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/fshZPjP.jpg</thumbnail>
 <fanart>http://viajandosinpapelhigienico.com/wp-content/uploads/2014/02/Captura-de-pantalla-2014-08-11-a-las-08.54.47-730x457.png</fanart>
 </item>
+
+
+<item>
+<title>[COLOR yellow]+[/COLOR][COLOR white] Prueba Webcam[/COLOR][/B]</title>
+ <link>$doregex[regex]</link> 
+<regex>
+<name>regex</name>
+<listrepeat><![CDATA[
+    <title>[COLOR white][regex.param3][/COLOR]  ([regex.param4])</title>
+    <link>$doregex[id]</link>
+    <thumbnail>[regex.param2]</thumbnail>
+    <fanart>[regex.param2]</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):
+  count=4;pn=1;data=[]
+  while pn <= int(count):
+    page='https://channelsurf.tv/tv-channels-category/genre/webcam/page/'+str(pn)+'/';source=requests.get(page).content.decode('ascii','ignore')
+    data +=re.findall('thumb"><a href="(.*?)".*?url="(.*?)".*?title="(.*?)".*?category">(.*?)<',source);pn +=1
+  return data]]></expres>
+<page></page>
+<cookiejar></cookiejar>
+</regex>
+<regex>
+  <name>getUrl</name>    
+  <expres><![CDATA[iframe id="td_youtube_player".*?src="(.*?)"]]></expres>
+<page>[regex.param1]</page>
+<referer>https://channelsurf.tv/tv-channels-category/genre/webcam</referer>
+</regex>
+<regex>
+  <name>select</name>    
+  <expres><![CDATA[<iframe id="Player".*?src="(.*?)"]]></expres>
+<page>$doregex[getUrl]</page>
+<referer>[regex.param1]</referer>
+</regex>
+<regex>
+  <name>select2</name>    
+  <expres><![CDATA[link rel="canonical" href="(.*?)"]]></expres>
+<page>$doregex[select]</page>
+<referer>$doregex[getUrl]</referer>
+</regex>
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[select2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/fshZPjP.jpg</thumbnail>
+<fanart>http://viajandosinpapelhigienico.com/wp-content/uploads/2014/02/Captura-de-pantalla-2014-08-11-a-las-08.54.47-730x457.png</fanart>
+</item>
