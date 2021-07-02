@@ -1,5 +1,100 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<item>
+<title>[COLOR yellow]+[/COLOR][COLOR white]CAMARAS DGT DE TODA ESPAÑA[/COLOR][COLOR yellow] (1358 camaras)[/COLOR]</title>
+ <link>$doregex[camaras]</link>
+ 
+<regex>
+  <name>camaras</name>  
+  <listrepeat><![CDATA[
+<SetwatchMode>500</SetwatchMode>
+<title>[COLOR yellow][[/COLOR][COLOR white][camaras.param1][/COLOR][COLOR yellow]][/COLOR][COLOR blue] DGT ESPAÑA[/COLOR]</title>
+<thumbnail>http://www.transport2000.ca/wp-content/uploads/2017/09/Intelligent-transportation-systems-in-Canada.jpg</thumbnail>
+<fanart>http://www.transport2000.ca/wp-content/uploads/2017/09/Intelligent-transportation-systems-in-Canada.jpg</fanart>
+<link>$doregex[picapau]</link>  
+]]></listrepeat>
+<expres>li title="([^"]+).*?a href="([^"]+).*?</expres>
+<page>http://www.dgt.es/es/el-trafico/camaras-de-trafico/</page>
+<cookieJar></cookieJar>
+</regex>
+ 
+<regex>
+  <name>picapau</name>  
+  <listrepeat><![CDATA[  
+<SetwatchMode>500</SetwatchMode>
+<title>[COLOR yellow][[/COLOR][COLOR white][picapau.param1][/COLOR][COLOR yellow]][/COLOR]</title>
+<thumbnail>http://infocar.dgt.es/etraffic/data/camaras/733.jpg</thumbnail>
+<fanart>http://www.transport2000.ca/wp-content/uploads/2017/09/Intelligent-transportation-systems-in-Canada.jpg</fanart>
+<link>$doregex[picapaudgt]</link>  
+]]></listrepeat>
+<expres>li title="([^"]+).*?a href="([^"]+).*?</expres>
+<page>http://www.dgt.es/[camaras.param2]</page>
+<cookieJar></cookieJar>
+</regex>
+ 
+ 
+ 
+<regex>
+  <name>picapaudgt</name>  
+  <listrepeat><![CDATA[
+<SetwatchMode>500</SetwatchMode>  
+<title>[COLOR yellow][[/COLOR][COLOR white][picapau.param1][/COLOR][COLOR yellow]][/COLOR] [COLOR white][picapaudgt.param1][/COLOR]</title>
+<thumbnail>http://infocar.dgt.es/etraffic/data/camaras[picapaudgt.param2]</thumbnail>
+<fanart>http://infocar.dgt.es/etraffic/data/camaras[picapaudgt.param2]</fanart>
+<link>$doregex[verpagina]</link>  
+]]></listrepeat>
+<expres> title="Acceder a([^"]+).*?data/camaras([^"]+).*?</expres>
+<page>http://www.dgt.es/[picapau.param2]$doregex[picapau3]</page>
+<cookieJar></cookieJar>
+</regex>
+ 
+ 
+ 
+ 
+ <regex>
+ 
+<name>picapau3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+  import xbmcgui
+ 
+  dialog = xbmcgui.Dialog()
+ 
+  ret = dialog.select('seleccione una PAGINA', ['[COLOR white]pagina 1[/COLOR]', '[COLOR white]pagina 2[/COLOR] [COLOR red](solo en los casos que exista)[/COLOR]', '[COLOR white]pagina 3[/COLOR] [COLOR red](solo en los casos que exista)[/COLOR]'])
+  lists = ['index.shtml', 'index-paginacion-002.shtml', 'index-paginacion-003.shtml']
+ 
+  return lists[ret]
+ 
+]]></expres>
+ 
+<page></page>
+ 
+</regex>
+ 
+ 
+<regex>
+<name>verpagina</name>
+<expres><![CDATA[#$pyFunction
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+ title = "Abre la camara"  
+ line1 = "Abre la camara"
+ line2 = "MIRA EL TRAFICO EN DIRECTO"
+ line3 = "ADDON FESTA"
+ xbmcgui.Dialog().ok(title, line1, line2, line3)
+ return "plugin://plugin.program.chrome.launcher/?url=http://infocar.dgt.es/etraffic/data/camaras[picapaudgt.param2]&mode=showSite&stopPlayback=no"
+]]></expres>
+<page></page>
+</regex>
+ 
+ 
+<thumbnail>http://infocar.dgt.es/etraffic/data/camaras/864.jpg</thumbnail>
+<fanart>http://www.transport2000.ca/wp-content/uploads/2017/09/Intelligent-transportation-systems-in-Canada.jpg</fanart>
+</item>
 
 
 <item>
