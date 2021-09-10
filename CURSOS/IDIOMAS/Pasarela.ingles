@@ -15,7 +15,7 @@
 
 
 <item>
-<title>[COLOR yellow]+[/COLOR][COLOR white]CURSO DE INGLÉS EJERCICIOS [/COLOR]</title>
+<title>[COLOR yellow]+[/COLOR][COLOR white]Edición MASTER CLASS AVANZADO [/COLOR]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -26,7 +26,7 @@
 <fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/playlist?list=UUnAVhqqs5WWwWoWNmVb0Mjw'
+url = 'https://www.youtube.com/watch?v=YYTawlt2On8&list=PL8Tdjf2jwFRcLOr5KYF9hrNYPauvOKkYI'
 import re,six
 $doregex[conector_youtube]
 
