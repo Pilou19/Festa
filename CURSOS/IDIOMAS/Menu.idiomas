@@ -76,7 +76,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/playlist?list=PL3EB4F17D44A0F078'
+url = 'https://www.youtube.com/watch?v=pP-m3Lr74Vk&list=PL3EB4F17D44A0F078'
 import re,six
 $doregex[conector_youtube]
 
@@ -172,7 +172,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/playlist?list=PL_JdwZWnDhAXgk0VA0d95JPQWO2jW651_'
+url = 'https://www.youtube.com/watch?v=IIkXK7ezRuA&list=PL_JdwZWnDhAXgk0VA0d95JPQWO2jW651_'
 import re,six
 $doregex[conector_youtube]
 
@@ -220,7 +220,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/playlist?list=PLgXzk50PHvvXAVhFkXT8nhhHT753eeFjP'
+url = 'https://www.youtube.com/watch?v=TyiAN14pmVE&list=PLgXzk50PHvvXAVhFkXT8nhhHT753eeFjP'
 import re,six
 $doregex[conector_youtube]
 
@@ -266,7 +266,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/playlist?list=PL6Lts1_c5NRxXcLybDokcYC33HakCpWH-'
+url = 'https://www.youtube.com/watch?v=K0hE_WPQEVk&list=PL6Lts1_c5NRxXcLybDokcYC33HakCpWH-'
 import re,six
 $doregex[conector_youtube]
 
@@ -313,7 +313,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/playlist?list=PLCPq8QfSb87CoeYdO-2h8L1EHI3LchOo9'
+url = 'https://www.youtube.com/watch?v=ufM8IWURbmY&list=PLCPq8QfSb87CoeYdO-2h8L1EHI3LchOo9'
 import re,six
 $doregex[conector_youtube]
 
@@ -360,7 +360,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/playlist?list=PLN5lZq-LXUbQuVZRKERVOhgiJdXynQVhr'
+url = 'https://www.youtube.com/watch?v=sNGu_8QDhuA&list=PLN5lZq-LXUbQuVZRKERVOhgiJdXynQVhr'
 import re,six
 $doregex[conector_youtube]
 
@@ -409,7 +409,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/playlist?list=PL7fyxjyFUW4msJ7tsp1e3ASB3lwXozpjU'
+url = 'https://www.youtube.com/watch?v=0XZ1KYWVLY8&list=PL7fyxjyFUW4msJ7tsp1e3ASB3lwXozpjU'
 import re,six
 $doregex[conector_youtube]
 
