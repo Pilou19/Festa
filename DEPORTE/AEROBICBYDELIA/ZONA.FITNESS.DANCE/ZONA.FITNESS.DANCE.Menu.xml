@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+
+<item>
+<title>[B][COLOR fuchsia]AEROBIC[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/BoeAd0C.png</thumbnail>
+<fanart>http://i.imgur.com/z3SIo3E.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/I%20LOVE%20AEROBIC.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR aqua]ZUMBA[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/B1mmqrP.png</thumbnail>
+<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/zumba.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR lime]JUST DANCE[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/29r6RmB.png</thumbnail>
+<fanart>https://i.imgur.com/w3TgSxe.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/Just%20dance.xml</externallink>
+</item>
+
+</items>
+
