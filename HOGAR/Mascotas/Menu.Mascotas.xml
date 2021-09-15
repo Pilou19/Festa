@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <items> 
+
+<item>
+<title>                     [COLOR yellow]***[/COLOR]   [COLOR white] Digamos  NO! al maltrato animal.[/COLOR]   [COLOR yellow]***[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/pg1s5V1.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+<item>
+<title>             [COLOR yellow]***[/COLOR]   [COLOR white]Que no hablen no significa que no sientan.[/COLOR]   [COLOR yellow]***[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/qDhuQbx.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+ 
+
+<item>
+<title>                                           [COLOR yellow]No compres, adopta.[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/kotE1jq.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+<item>
+<title> [COLOR yellow] [/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/1pVfnvk.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR white]ADOPTAR (pinchar aquí) [COLOR orangered][http://wallamascotas.com/][/COLOR]</title>
+<link>$doregex[noticia]</link>
+<regex>
+<name>noticia</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import xbmc
+ import xbmcgui
+ import webbrowser
+ return  webbrowser.open_new_tab('http://wallamascotas.com/') + xbmc.executebuiltin('StartAndroidActivity(,android.intent.action.VIEW,,%s)' % 'http://wallamascotas.com/')
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/1pVfnvk.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+<item>
+<title> [COLOR yellow] [/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/1pVfnvk.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR white]TENENCIA RESPONSABLE DE MASCOTAS PARA NIÑOS[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'http://www.youtube.com/watch?v=Inecu2p_9v0&list=PL0jWOfkzaPFp4DUE-by0L_3vpr-kEvDlJ'
+import re,six
+$doregex[conector_youtube]
+
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>conector_youtube</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64,shutil,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+def GetLSProData(page_data,Cookie_Jar,m):
+    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verify=False).text
+    return six.ensure_str(pasta)
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/A5jq8hp.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR white]PROTECTORAS DE ANIMALES[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/oL3RU58.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+<externallink>https://pastebin.com/raw/2F5BEpe5</externallink>
+</item>
+ 
+ 
+<item>
+<title>[COLOR white]CUIDADO DE GATOS[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'http://www.youtube.com/watch?v=Epor0Y4den4&list=PLtRwSCbGsS0URb8WZbh7tnMD7ZDPfqOrS'
+import re,six
+$doregex[conector_youtube]
+
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>conector_youtube</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64,shutil,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+def GetLSProData(page_data,Cookie_Jar,m):
+    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verify=False).text
+    return six.ensure_str(pasta)
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/f1D0KCZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR white]CUIDADO DE CONEJOS[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'http://www.youtube.com/watch?v=a5jUabcV2dE&list=PLtRwSCbGsS0VTeCuQTT69q8ynWw2JucBH'
+import re,six
+$doregex[conector_youtube]
+
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>conector_youtube</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64,shutil,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+def GetLSProData(page_data,Cookie_Jar,m):
+    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verify=False).text
+    return six.ensure_str(pasta)
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/KJTrshL.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR white]CUIDADO DE HAMMSTER[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'http://www.youtube.com/watch?v=aoPggCxDsxY&list=PLtRwSCbGsS0UVlQMt-7d7nTDZGaN4M_re'
+import re,six
+$doregex[conector_youtube]
+
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>conector_youtube</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64,shutil,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+def GetLSProData(page_data,Cookie_Jar,m):
+    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verify=False).text
+    return six.ensure_str(pasta)
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/XBtf2fG.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR white]CUIDADO DE PECES[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'http://www.youtube.com/watch?v=6Tic0fZOoYM&list=PLtRwSCbGsS0W8DbrO5xX3wShP8cylxkyx'
+import re,six
+$doregex[conector_youtube]
+
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>conector_youtube</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64,shutil,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+def GetLSProData(page_data,Cookie_Jar,m):
+    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verify=False).text
+    return six.ensure_str(pasta)
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/1mbS69A.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR white]CUIDADO DE TORTUGAS[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'http://www.youtube.com/watch?v=bo5aYMLIKuU&list=PLtRwSCbGsS0XSyk0J9Zfayu0bAofTOz16'
+import re,six
+$doregex[conector_youtube]
+
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>conector_youtube</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64,shutil,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+def GetLSProData(page_data,Cookie_Jar,m):
+    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verify=False).text
+    return six.ensure_str(pasta)
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/desp6L9.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR white]CUIDADO DE PERROS[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'http://www.youtube.com/watch?v=HWFp_j4OmVg&list=PLtRwSCbGsS0U-Pn3_zo6J0L7NV1yK4keR'
+import re,six
+$doregex[conector_youtube]
+
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>conector_youtube</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64,shutil,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+def GetLSProData(page_data,Cookie_Jar,m):
+    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verify=False).text
+    return six.ensure_str(pasta)
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/Qf5EzsD.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR white]CUIDADO DE IGUANAS[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'http://www.youtube.com/watch?v=Qo9Y6Z_Rp2c&list=PLtRwSCbGsS0UW7qa43Wq2odL6NXBh_t6qR'
+import re,six
+$doregex[conector_youtube]
+
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>conector_youtube</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64,shutil,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+def GetLSProData(page_data,Cookie_Jar,m):
+    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verify=False).text
+    return six.ensure_str(pasta)
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/Bo9hO1a.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR white]CUIDADO DE LOROS[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'http://www.youtube.com/watch?v=UkIO9k-eInM&list=PLtRwSCbGsS0VodNZM42VYc5r2-TozLtu_'
+import re,six
+$doregex[conector_youtube]
+
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>conector_youtube</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64,shutil,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+def GetLSProData(page_data,Cookie_Jar,m):
+    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verify=False).text
+    return six.ensure_str(pasta)
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/VK770Hm.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR white]CUIDADO DE PERIQUITOS[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'http://www.youtube.com/watch?v=rJ1GAMtXBW8&list=PLtRwSCbGsS0XHR4P5X3j_CDVEoEsMcPVB'
+import re,six
+$doregex[conector_youtube]
+
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>conector_youtube</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64,shutil,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+def GetLSProData(page_data,Cookie_Jar,m):
+    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verify=False).text
+    return six.ensure_str(pasta)
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/TqQO3vr.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR white]CUIDADO DE HURONES[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'http://www.youtube.com/watch?v=gLJd4nNt3LA&list=PLtRwSCbGsS0VZ7VINegc8mih8IgE1NP1F'
+import re,six
+$doregex[conector_youtube]
+
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>conector_youtube</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64,shutil,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+def GetLSProData(page_data,Cookie_Jar,m):
+    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verify=False).text
+    return six.ensure_str(pasta)
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/ubuuCuB.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR white]MANUALIDADES PARA MASCOTAS[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'http://www.youtube.com/watch?v=B6brXJ-XPfU&list=PLazt_SRPegNz7hj26rRWeRN2Z49iWjJcH'
+import re,six
+$doregex[conector_youtube]
+
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>conector_youtube</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64,shutil,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+def GetLSProData(page_data,Cookie_Jar,m):
+    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verify=False).text
+    return six.ensure_str(pasta)
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/CSfg6EO.jpg</thumbnail>
+<fanart>https://i.imgur.com/YVy8w04.jpg</fanart>
+</item>
+
+
+</items>
