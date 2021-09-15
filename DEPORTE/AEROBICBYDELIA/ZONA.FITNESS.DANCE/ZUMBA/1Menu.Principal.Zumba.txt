@@ -104,7 +104,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/B1mmqrP.png</thumbnail>
 <fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/Zumba%20Variado.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/DEPORTE/AEROBICBYDELIA/ZONA.FITNESS.DANCE/ZUMBA/Menu.Zumba.xml</externallink>
 </item>
 
 
