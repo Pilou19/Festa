@@ -22,7 +22,7 @@
 <thumbnail>https://i.imgur.com/rrkukzY.jpg</thumbnail>
 <fanart>https://i.imgur.com/rrkukzY.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/ZONA%20COMBAT.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/DEPORTE/AEROBICBYDELIA/ZONA.COMBAT/Menu.Zona.Combat.xml</externallink>
 </item>
 
 <item>
@@ -30,7 +30,7 @@
 <thumbnail>https://i.imgur.com/FXRDejI.png</thumbnail>
 <fanart>https://i.imgur.com/dFSCL8E.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/ZONA%20INDOOR.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/DEPORTE/AEROBICBYDELIA/ZONA.INDOOR/Menu.Zona.Indoor.xml</externallink>
 </item>
 
 
@@ -40,7 +40,7 @@
 <thumbnail>https://i.imgur.com/eBCgB3x.jpg</thumbnail>
 <fanart>https://i.imgur.com/eBCgB3x.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/ZONA%20PONTE%20EN%20FORMA.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/DEPORTE/AEROBICBYDELIA/ZONA.GYM.VIRTUAL/Menu.Gym.Virtual.xml</externallink>
 </item>
 
 <item>
@@ -48,7 +48,7 @@
 <thumbnail>https://i.imgur.com/QOyGR5T.png</thumbnail>
 <fanart>https://i.imgur.com/mQb1rmV.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/ZONA%20MEDITACION.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/DEPORTE/AEROBICBYDELIA/ZONA.MEDITACION/Menu.Meditacion.xml</externallink>
 </item>
 
 
@@ -58,9 +58,13 @@
 <thumbnail>https://i.imgur.com/GuQ8nIs.png</thumbnail>
 <fanart>https://i.imgur.com/MXsK7ek.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/FUN%20ZONE.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/DEPORTE/AEROBICBYDELIA/INTEGRA.SPORT/Menu.Integra.Sport.xml</externallink>
 </item>
 
+
+
+
+<!--
 <item>
 <title>[B][COLOR lime]TUS CLASES DE BAILE[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/szdZqpr.jpg</thumbnail>
@@ -84,6 +88,6 @@
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/Fisioterapia%20a%20tu%20alcance.xml</externallink>
 </item>
-
+-->
 
 </items>
