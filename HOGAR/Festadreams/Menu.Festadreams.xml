@@ -96,7 +96,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'http://www.youtube.com/watch?v=YICkUBD2mQQ&amp;list=PL0jWOfkzaPFomcqg_DHxzHIJGWr8BLzka'
+url = 'http://www.youtube.com/watch?v=YICkUBD2mQQ&list=PL0jWOfkzaPFomcqg_DHxzHIJGWr8BLzka'
 import re,six
 $doregex[conector_youtube]
 
@@ -143,7 +143,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'http://www.youtube.com/watch?v=pqzGRt-f0e0&amp;list=PL0jWOfkzaPFpB1yMZWBeAtnvPbwHqZXxw'
+url = 'http://www.youtube.com/watch?v=pqzGRt-f0e0&list=PL0jWOfkzaPFpB1yMZWBeAtnvPbwHqZXxw'
 import re,six
 $doregex[conector_youtube]
 
@@ -190,7 +190,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'http://www.youtube.com/watch?v=aMM-JbIHD3I&amp;list=PLPrqtegTw5ct3FzbwimnszR90c7TdHddV'
+url = 'http://www.youtube.com/watch?v=aMM-JbIHD3I&list=PLPrqtegTw5ct3FzbwimnszR90c7TdHddV'
 import re,six
 $doregex[conector_youtube]
 
@@ -256,7 +256,7 @@ streamLink = resolveurl.resolve(url)
 <fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'http://www.youtube.com/watch?v=f1YVdE-hTdg&amp;list=PLztQv6iNC4GBR9SZi-mi9QSGNN2Mtkc6Q'
+url = 'http://www.youtube.com/watch?v=f1YVdE-hTdg&list=PLztQv6iNC4GBR9SZi-mi9QSGNN2Mtkc6Q'
 import re,six
 $doregex[conector_youtube]
 
