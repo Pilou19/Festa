@@ -134,14 +134,6 @@ streamLink = resolveurl.resolve(url)
 </item>
 
 
-<item>
-<title>[COLOR yellow]+[/COLOR][COLOR white]UKELELE[/COLOR]</title>
-<thumbnail>https://i.imgur.com/AGqLatv.jpg</thumbnail>
-<fanart>https://i.imgur.com/K8SqXkZ.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/CURSOS/MUSICA/Ukelele</externallink>
-</item>
-
 
 <item>
 <title>[COLOR yellow]+[/COLOR][COLOR white]VIOLIN[/COLOR]</title>
