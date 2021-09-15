@@ -7,7 +7,7 @@
 <link>http://ignorame</link>
 <thumbnail>https://i.imgur.com/xkK7Bd0.jpg</thumbnail>
 <fanart>https://t.me/c/1315640511/6480</fanart>
-<externallink>http://bit.ly/2Bl8fOD</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/BRICOFESTA/Menu</externallink>
 </item>
 
 
@@ -16,7 +16,7 @@
 <thumbnail>https://i.imgur.com/gdX82i7.jpg</thumbnail>
 <fanart>https://t.me/c/1315640511/6480</fanart>
 <link>http://ignoreme</link>
-<externallink>http://bit.ly/2BmR6Ec</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/HOGAR/Cocina/1Menu.cocina.xml</externallink>
 </item>
 
 <item>
@@ -24,19 +24,17 @@
 <link>http://ignoreme</link>
 <thumbnail>https://i.imgur.com/4DPmN2M.jpg</thumbnail>
 <fanart>https://t.me/c/1315640511/6480</fanart>
-<externallink>https://pastebin.com/raw/KGdseskJ</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/HOGAR/Festadreams/Menu.Festadreams.xml</externallink>
 </item>
-
 
 
 <item>
- <title>[COLOR yellow]+[/COLOR][COLOR white]JARDIN [/COLOR]</title>
- <link>http://ignorame</link>
- <thumbnail>https://i.imgur.com/W2wCTwb.jpg</thumbnail>
- <fanart>https://t.me/c/1315640511/6480</fanart>
- <externallink>https://pastebin.com/raw/UrE5JufW</externallink>
+<title>[COLOR yellow]+[/COLOR][COLOR white]JARDIN [/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/W2wCTwb.jpg</thumbnail>
+<fanart>https://t.me/c/1315640511/6480</fanart>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/HOGAR/Jardin/Menu.Jardin.xml</externallink>
 </item>
-
 
 
 <item>
@@ -44,9 +42,8 @@
 <link>http://ignoreme</link>
 <thumbnail>https://i.imgur.com/5oKf3Ga.jpg</thumbnail>
 <fanart>https://t.me/c/1315640511/6480</fanart>
-<externallink>https://pastebin.com/raw/BT5f22p9</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/HOGAR/Mascotas/Menu.Mascotas.xml</externallink>
 </item>
-
 
 
 <item>
@@ -54,7 +51,7 @@
 <link>http://ignorame</link>
 <thumbnail>https://i.imgur.com/wCS3boc.jpg</thumbnail>
 <fanart>https://t.me/c/1315640511/6480</fanart>
-<externallink>https://pastebin.com/raw/gp7w6DCv</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/HOGAR/Moda/Menu.Moda.xml</externallink>
 </item>
 
 
@@ -63,7 +60,7 @@
 <link>http://Ignoreme</link>
 <thumbnail>https://i.imgur.com/rX7KmRr.jpg</thumbnail>
 <fanart>https://t.me/c/1315640511/6480</fanart>
-<externallink>https://pastebin.com/raw/x3g9FMg9</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/HOGAR/Reciclaje/Menu.Reciclar.xml</externallink>
 </item>
 
 
@@ -72,18 +69,16 @@
 <link>http://ignorame</link>
 <thumbnail>https://i.imgur.com/i9XNQ4J.jpg</thumbnail>
 <fanart>https://t.me/c/1315640511/6480</fanart>
-<externallink>https://pastebin.com/raw/r9gHmbqJ</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/HOGAR/Taller/Menu.Taller.xml</externallink>
 </item>
  
- 
-
 
 <item>
 <title>[COLOR yellow]+[/COLOR][COLOR white]TRUQUITOS[/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>https://i.imgur.com/puCNhp4.jpg</thumbnail>
 <fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
-<externallink>https://pastebin.com/raw/Jqa9JYUW</externallink>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/HOGAR/Truquitos/Menu.Truquitos.xml</externallink>
 </item>
 
 
