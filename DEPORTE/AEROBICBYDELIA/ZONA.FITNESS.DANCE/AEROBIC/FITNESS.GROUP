@@ -10,7 +10,7 @@
 <title>[COLOR red]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/9oj90nA.jpg</fanart>
+<fanart>http://i.imgur.com/z3SIo3E.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=pggW-VOZUFY&list=PLzEzh4ukGq9Yncqvrqcwp2GYHfK7W_0cA'
@@ -56,7 +56,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR red]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/9oj90nA.jpg</fanart>
+<fanart>http://i.imgur.com/z3SIo3E.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=Co-jEv8ENv0&list=PLzEzh4ukGq9ZlWbFMrVFJ5-s9rUWVLQUz'
@@ -109,7 +109,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR red]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/9oj90nA.jpg</fanart>
+<fanart>http://i.imgur.com/z3SIo3E.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=OZsVaeYHNyQ&list=PLzEzh4ukGq9a_FqU7mNrZPtXppbx9da-N'
@@ -163,7 +163,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR red]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/9oj90nA.jpg</fanart>
+<fanart>http://i.imgur.com/z3SIo3E.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=-0X-zkYtY1Y&list=PLzEzh4ukGq9Zz9dDN9jvmNmlhTG3KCrw7'
