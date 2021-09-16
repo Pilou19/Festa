@@ -6,53 +6,8 @@
 
 <item>
 <title>[COLOR yellow]ESPECIAL[/COLOR] [COLOR orangered]CARNAVAL, CARNAVAL [COLOR yellow][/COLOR]</title>
-<link>cristalazul</link>
-<externallink>$doregex[c]</externallink>
-<regex>
-<name>c</name>
-<expres><![CDATA[#$pyFunction
-from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
-import time
-#import urllib, re, requests, xbmcgui, xbmc, xbmcaddon, time
-#import os
-def GetLSProData(page_data,Cookie_Jar,m):
-
-    xbmc.executebuiltin('PlayMedia("$doregex[azar_musica]",1)')
-    time.sleep( 1 )
-    return '$doregex[distancia]'
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name>distancia</name>
-<expres><![CDATA[#$pyFunctiona
-import re,requests,base64,shutil,random
-from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
-from six.moves import urllib_request
-import six
-TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
-def GetLSProData(page_data,Cookie_Jar,m):
-      pasta = requests.get('http://bit.ly/festa_menu_distancia', headers={'User-Agent': 'Mozilla/5.0'}).text
-      pasta = six.ensure_str(pasta)
-      return re.findall('="(.*?)"', pasta)[12]
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name>azar_musica</name>
-<expres><![CDATA[#$pyFunction
-import re,requests,base64,shutil,random
-from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
-from six.moves import urllib_request
-import six
-TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
-def GetLSProData(page_data,Cookie_Jar,m):
- opcion = ["https://archive.org/download/ademas.del.desconcierto.-carnaval.-2021/Ademas.del.desconcierto.Carnaval.2021.mp3", "https://archive.org/download/ademas.del.desconcierto.-carnaval.-2021/Ademas.del.desconcierto.Carnaval.2021.mp3", "https://archive.org/download/ademas.del.desconcierto.-carnaval.-2021/Ademas.del.desconcierto.Carnaval.2021.mp3"]
- azar = random.choice(opcion)
- return azar
-]]></expres>
-<page></page>
-</regex>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/Pilou19/Festa/main/CARNAVAL/Menu</externallink>
 <thumbnail>https://i.imgur.com/5ZgQgTO.jpg</thumbnail>
 <fanart>https://i.imgur.com/DJF7jOS.jpg</fanart>
 </item>
@@ -60,53 +15,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR yellow]ESPECIAL [/COLOR] [COLOR orangered]SEMANA SANTA ADDON COFRADE [COLOR yellow][/COLOR]</title>
-<link>cristalazul</link>
-<externallink>$doregex[c]</externallink>
-<regex>
-<name>c</name>
-<expres><![CDATA[#$pyFunction
-from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
-import time
-#import urllib, re, requests, xbmcgui, xbmc, xbmcaddon, time
-#import os
-def GetLSProData(page_data,Cookie_Jar,m):
-
-    xbmc.executebuiltin('PlayMedia("$doregex[azar_musica]",1)')
-    time.sleep( 1 )
-    return '$doregex[distancia]'
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name>distancia</name>
-<expres><![CDATA[#$pyFunctiona
-import re,requests,base64,shutil,random
-from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
-from six.moves import urllib_request
-import six
-TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
-def GetLSProData(page_data,Cookie_Jar,m):
-      pasta = requests.get('http://bit.ly/cristal_menus_distancia', headers={'User-Agent': 'Mozilla/5.0'}).text
-      pasta = six.ensure_str(pasta)
-      return re.findall('="(.*?)"', pasta)[13]
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name>azar_musica</name>
-<expres><![CDATA[#$pyFunction
-import re,requests,base64,shutil,random
-from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
-from six.moves import urllib_request
-import six
-TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
-def GetLSProData(page_data,Cookie_Jar,m):
- opcion = ["", "https://archive.org/download/semana.santa.sevilla.2020_202002/semana.santa.sevilla.2020.mp3", "https://archive.org/download/semana.santa.sevilla.2020_202002/semana.santa.sevilla.2020.mp3"]
- azar = random.choice(opcion)
- return azar
-]]></expres>
-<page></page>
-</regex>
+<link>http://ignorame</link>
+<externallink>https://pastebin.com/raw/PRpgNzPx</externallink>
 <thumbnail>https://i.imgur.com/TdmQxP3.jpg</thumbnail>
 <fanart>https://i.imgur.com/3lasiEf.jpg</fanart>
 </item>
