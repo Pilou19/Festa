@@ -1,0 +1,541 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<SetViewMode>503</SetViewMode>
+
+
+
+
+<item>
+<title> [B] [COLOR fuchia] BACHATA[/ COLOR] [/ B] </title>
+<link> $ doregex [link_inteligente] </link>
+<regex>
+<nombre> link_inteligente </name>
+<listrepeat> <! [CDATA [
+<title> [COLOR rojo] + [/ COLOR] [COLOR blanco] [link_inteligente.param1] [/ COLOR] </title>
+<link> $ doregex [id] </link>
+<thumbnail> https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg </thumbnail>
+<fanart>http://2.bp.blogspot.com/-J0K-Xuof0wE/Vk6WD7-sS3I/AAAAAAAAAAg/FHQwXZ8xkBE/s1600/bachata.png   </fanart>
+]]> </listrepeat>
+<expres> <! [CDATA [# $ pyFunction
+url = 'https://www.youtube.com/watch?v=Z0CWRLv-n5k&list=PL4SoLzju1HpUWfOMfcUnAIurLBB4m17NA&ab_channel=canalsapeando'
+importar re, seis
+$ doregex [conector_youtube]
+
+]]> </expres>
+<page> </page>
+</regex> 
+<regex>
+<nombre> conector_youtube </name>
+<expres> <! [CDATA [# $ pyFunction
+importar re, solicitudes, base64, shutil, aleatorio
+de kodi_six importar xbmc, xbmcgui, xbmcaddon, xbmcvfs
+de six.moves import urllib_request
+importar seis
+def GetLSProData (page_data, Cookie_Jar, m):
+    pasta = request.get ('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verificar = Falso) .text
+    return six.ensure_str (pasta)
+]]> </expres>
+<page> </page>
+</regex>
+<regex>
+<nombre> id </nombre>
+<expres> <! [CDATA [# $ pyFunction
+importar resolveurl
+def GetLSProData (page_data, Cookie_Jar, m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  devolver resolveurl.resolve (url)
+]]> </expres>
+<page> </page>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-J0K-Xuof0wE/Vk6WD7-sS3I/AAAAAAAAAAg/FHQwXZ8xkBE/s1600/bachata.png  </thumbnail>
+<fanart> https://i.imgur.com/J9i2w2M.jpg  </fanart>
+</item>
+
+
+
+
+<item>
+<title> [B] [COLOR aqua]BREAK DANCE[/ COLOR] [/ B] </title>
+<link> $ doregex [link_inteligente] </link>
+<regex>
+<nombre> link_inteligente </name>
+<listrepeat> <! [CDATA [
+<title> [COLOR rojo] + [/ COLOR] [COLOR blanco] [link_inteligente.param1] [/ COLOR] </title>
+<link> $ doregex [id] </link>
+<thumbnail> https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg </thumbnail>
+<fanart>https://i.imgur.com/xUD8Ezf.jpg </fanart>
+]]> </listrepeat>
+<expres> <! [CDATA [# $ pyFunction
+url = 'https://www.youtube.com/watch?v=Dx4t9YumPfE&list=PLkzQ_gL7fD9Q8z1YH_LbFbGUM9S4gbveY&ab_channel=MarioQuevedo'
+importar re, seis
+$ doregex [conector_youtube]
+
+]]> </expres>
+<page> </page>
+</regex> 
+<regex>
+<nombre> conector_youtube </name>
+<expres> <! [CDATA [# $ pyFunction
+importar re, solicitudes, base64, shutil, aleatorio
+de kodi_six importar xbmc, xbmcgui, xbmcaddon, xbmcvfs
+de six.moves import urllib_request
+importar seis
+def GetLSProData (page_data, Cookie_Jar, m):
+    pasta = request.get ('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verificar = Falso) .text
+    return six.ensure_str (pasta)
+]]> </expres>
+<page> </page>
+</regex>
+<regex>
+<nombre> id </nombre>
+<expres> <! [CDATA [# $ pyFunction
+importar resolveurl
+def GetLSProData (page_data, Cookie_Jar, m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  devolver resolveurl.resolve (url)
+]]> </expres>
+<page> </page>
+</regex>
+<thumbnail> https://i.imgur.com/xUD8Ezf.jpg </thumbnail>
+<fanart> https://i.imgur.com/xUD8Ezf.jpg </fanart>
+</item>
+
+
+
+<item>
+<title> [B] [COLOR lime] CUMBIA [/ COLOR] [/ B] </title>
+<link> $ doregex [link_inteligente] </link>
+<regex>
+<nombre> link_inteligente </name>
+<listrepeat> <! [CDATA [
+<title> [COLOR rojo] + [/ COLOR] [COLOR blanco] [link_inteligente.param1] [/ COLOR] </title>
+<link> $ doregex [id] </link>
+<thumbnail> https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg </thumbnail>
+<fanart> https://i.imgur.com/xuah0HZ.jpg </fanart>
+]]> </listrepeat>
+<expres> <! [CDATA [# $ pyFunction
+url = 'https://www.youtube.com/watch?v=m3rDECWBxLA&list=PLCJjuc5EiS8rULqnAhmaDAo2qCVMUfZgC&ab_channel=NovaRumba'
+importar re, seis
+$ doregex [conector_youtube]
+
+]]> </expres>
+<page> </page>
+</regex> 
+<regex>
+<nombre> conector_youtube </name>
+<expres> <! [CDATA [# $ pyFunction
+importar re, solicitudes, base64, shutil, aleatorio
+de kodi_six importar xbmc, xbmcgui, xbmcaddon, xbmcvfs
+de six.moves import urllib_request
+importar seis
+def GetLSProData (page_data, Cookie_Jar, m):
+    pasta = request.get ('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verificar = Falso) .text
+    return six.ensure_str (pasta)
+]]> </expres>
+<page> </page>
+</regex>
+<regex>
+<nombre> id </nombre>
+<expres> <! [CDATA [# $ pyFunction
+importar resolveurl
+def GetLSProData (page_data, Cookie_Jar, m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  devolver resolveurl.resolve (url)
+]]> </expres>
+<page> </page>
+</regex>
+<thumbnail>https://i.imgur.com/xuah0HZ.jpg  </thumbnail>
+<fanart> https://i.imgur.com/xuah0HZ.jpg  </fanart>
+</item>
+
+
+
+
+<item>
+<title> [B] [COLOR plum] HIP HOP[/ COLOR] [/ B] </title>
+<link> $ doregex [link_inteligente] </link>
+<regex>
+<nombre> link_inteligente </name>
+<listrepeat> <! [CDATA [
+<title> [COLOR rojo] + [/ COLOR] [COLOR blanco] [link_inteligente.param1] [/ COLOR] </title>
+<link> $ doregex [id] </link>
+<thumbnail> https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg </thumbnail>
+<fanart>https://i.imgur.com/qZMd23i.jpg  </fanart>
+]]> </listrepeat>
+<expres> <! [CDATA [# $ pyFunction
+url = 'https://www.youtube.com/watch?v=KY9Tp84Tymg&list=PL_jKFXUSJ-ES5sxs4rQdWBHghwH0hnBJE&ab_channel=TuiwokTalento'
+importar re, seis
+$ doregex [conector_youtube]
+
+]]> </expres>
+<page> </page>
+</regex> 
+<regex>
+<nombre> conector_youtube </name>
+<expres> <! [CDATA [# $ pyFunction
+importar re, solicitudes, base64, shutil, aleatorio
+de kodi_six importar xbmc, xbmcgui, xbmcaddon, xbmcvfs
+de six.moves import urllib_request
+importar seis
+def GetLSProData (page_data, Cookie_Jar, m):
+    pasta = request.get ('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verificar = Falso) .text
+    return six.ensure_str (pasta)
+]]> </expres>
+<page> </page>
+</regex>
+<regex>
+<nombre> id </nombre>
+<expres> <! [CDATA [# $ pyFunction
+importar resolveurl
+def GetLSProData (page_data, Cookie_Jar, m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  devolver resolveurl.resolve (url)
+]]> </expres>
+<page> </page>
+</regex>
+<thumbnail> https://i.imgur.com/qZMd23i.jpg </thumbnail>
+<fanart> https://i.imgur.com/qZMd23i.jpg </fanart>
+</item>
+
+
+
+<item>
+<title> [B] [COLOR gold]KIZOMBA [/ COLOR] [/ B] </title>
+<link> $ doregex [link_inteligente] </link>
+<regex>
+<nombre> link_inteligente </name>
+<listrepeat> <! [CDATA [
+<title> [COLOR rojo] + [/ COLOR] [COLOR blanco] [link_inteligente.param1] [/ COLOR] </title>
+<link> $ doregex [id] </link>
+<thumbnail> https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg </thumbnail>
+<fanart>https://i.imgur.com/raEWWyx.jpg </fanart>
+]]> </listrepeat>
+<expres> <! [CDATA [# $ pyFunction
+url = 'https://www.youtube.com/watch?v=ybLoHgXk8b8&list=PL_jKFXUSJ-ESyth0X6unxLIHH9pucCSZ5&ab_channel=TuiwokTalento'
+importar re, seis
+$ doregex [conector_youtube]
+
+]]> </expres>
+<page> </page>
+</regex> 
+<regex>
+<nombre> conector_youtube </name>
+<expres> <! [CDATA [# $ pyFunction
+importar re, solicitudes, base64, shutil, aleatorio
+de kodi_six importar xbmc, xbmcgui, xbmcaddon, xbmcvfs
+de six.moves import urllib_request
+importar seis
+def GetLSProData (page_data, Cookie_Jar, m):
+    pasta = request.get ('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verificar = Falso) .text
+    return six.ensure_str (pasta)
+]]> </expres>
+<page> </page>
+</regex>
+<regex>
+<nombre> id </nombre>
+<expres> <! [CDATA [# $ pyFunction
+importar resolveurl
+def GetLSProData (page_data, Cookie_Jar, m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  devolver resolveurl.resolve (url)
+]]> </expres>
+<page> </page>
+</regex>
+<thumbnail> https://i.imgur.com/raEWWyx.jpg </thumbnail>
+<fanart>https://i.imgur.com/raEWWyx.jpg  </fanart>
+</item>
+
+
+
+<item>
+<title> [B][COLOR aqua]OSKORRI[/ COLOR] [/ B] </title>
+<link> $ doregex [link_inteligente] </link>
+<regex>
+<nombre> link_inteligente </name>
+<listrepeat> <! [CDATA [
+<title> [COLOR rojo] + [/ COLOR] [COLOR blanco] [link_inteligente.param1] [/ COLOR] </title>
+<link> $ doregex [id] </link>
+<thumbnail> https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg </thumbnail>
+<fanart>https://i.imgur.com/7dnhk4R.jpg</fanart>
+]]> </listrepeat>
+<expres> <! [CDATA [# $ pyFunction
+url = 'https://www.youtube.com/watch?v=8fOZm98k3T8&list=PL5637CF7347D31A9D&ab_channel=OskorriTaldea'
+importar re, seis
+$ doregex [conector_youtube]
+
+]]> </expres>
+<page> </page>
+</regex> 
+<regex>
+<nombre> conector_youtube </name>
+<expres> <! [CDATA [# $ pyFunction
+importar re, solicitudes, base64, shutil, aleatorio
+de kodi_six importar xbmc, xbmcgui, xbmcaddon, xbmcvfs
+de six.moves import urllib_request
+importar seis
+def GetLSProData (page_data, Cookie_Jar, m):
+    pasta = request.get ('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verificar = Falso) .text
+    return six.ensure_str (pasta)
+]]> </expres>
+<page> </page>
+</regex>
+<regex>
+<nombre> id </nombre>
+<expres> <! [CDATA [# $ pyFunction
+importar resolveurl
+def GetLSProData (page_data, Cookie_Jar, m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  devolver resolveurl.resolve (url)
+]]> </expres>
+<page> </page>
+</regex>
+<thumbnail>https://i.imgur.com/7dnhk4R.jpg</thumbnail>
+<fanart>https://i.imgur.com/7dnhk4R.jpg</fanart>
+</item>
+
+
+
+
+
+
+<item>
+<title> [B][COLOR lime]SALSA[/ COLOR] [/ B] </title>
+<link> $ doregex [link_inteligente] </link>
+<regex>
+<nombre> link_inteligente </name>
+<listrepeat> <! [CDATA [
+<title> [COLOR rojo] + [/ COLOR] [COLOR blanco] [link_inteligente.param1] [/ COLOR] </title>
+<link> $ doregex [id] </link>
+<thumbnail> https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg </thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHbw7ai5ZokRmXQDQezmDvs_EXlIBbRZMNoNOaARqEPTBtnSbR</fanart>
+]]> </listrepeat>
+<expres> <! [CDATA [# $ pyFunction
+url = 'https://www.youtube.com/watch?v=qmxro3w79dw&list=PLXTobIohjBt1Axz007RFi9VV6YUNOdQLc&ab_channel=Addicted2Salsa'
+importar re, seis
+$ doregex [conector_youtube]
+
+]]> </expres>
+<page> </page>
+</regex> 
+<regex>
+<nombre> conector_youtube </name>
+<expres> <! [CDATA [# $ pyFunction
+importar re, solicitudes, base64, shutil, aleatorio
+de kodi_six importar xbmc, xbmcgui, xbmcaddon, xbmcvfs
+de six.moves import urllib_request
+importar seis
+def GetLSProData (page_data, Cookie_Jar, m):
+    pasta = request.get ('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verificar = Falso) .text
+    return six.ensure_str (pasta)
+]]> </expres>
+<page> </page>
+</regex>
+<regex>
+<nombre> id </nombre>
+<expres> <! [CDATA [# $ pyFunction
+importar resolveurl
+def GetLSProData (page_data, Cookie_Jar, m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  devolver resolveurl.resolve (url)
+]]> </expres>
+<page> </page>
+</regex>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHbw7ai5ZokRmXQDQezmDvs_EXlIBbRZMNoNOaARqEPTBtnSbR</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHbw7ai5ZokRmXQDQezmDvs_EXlIBbRZMNoNOaARqEPTBtnSbR</fanart>
+</item>
+
+
+
+<item>
+<title> [B][COLOR plum]SEVILLANAS[/ COLOR] [/ B] </title>
+<link> $ doregex [link_inteligente] </link>
+<regex>
+<nombre> link_inteligente </name>
+<listrepeat> <! [CDATA [
+<title> [COLOR rojo] + [/ COLOR] [COLOR blanco] [link_inteligente.param1] [/ COLOR] </title>
+<link> $ doregex [id] </link>
+<thumbnail> https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg </thumbnail>
+<fanart>https://i.imgur.com/o3XoPyk.jpg</fanart>
+]]> </listrepeat>
+<expres> <! [CDATA [# $ pyFunction
+url = 'https://www.youtube.com/watch?v=DvLMLI7uAJo&list=PLo2d3ptdDKtyROMCq8clQXct2Xh4E_v15&ab_channel=EstudioFlamencoSevilla'
+importar re, seis
+$ doregex [conector_youtube]
+
+]]> </expres>
+<page> </page>
+</regex> 
+<regex>
+<nombre> conector_youtube </name>
+<expres> <! [CDATA [# $ pyFunction
+importar re, solicitudes, base64, shutil, aleatorio
+de kodi_six importar xbmc, xbmcgui, xbmcaddon, xbmcvfs
+de six.moves import urllib_request
+importar seis
+def GetLSProData (page_data, Cookie_Jar, m):
+    pasta = request.get ('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verificar = Falso) .text
+    return six.ensure_str (pasta)
+]]> </expres>
+<page> </page>
+</regex>
+<regex>
+<nombre> id </nombre>
+<expres> <! [CDATA [# $ pyFunction
+importar resolveurl
+def GetLSProData (page_data, Cookie_Jar, m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  devolver resolveurl.resolve (url)
+]]> </expres>
+<page> </page>
+</regex>
+<thumbnail>https://i.imgur.com/o3XoPyk.jpg</thumbnail>
+<fanart>https://i.imgur.com/o3XoPyk.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title> [B][COLOR gold]SHUFFLE[/ COLOR] [/ B] </title>
+<link> $ doregex [link_inteligente] </link>
+<regex>
+<nombre> link_inteligente </name>
+<listrepeat> <! [CDATA [
+<title> [COLOR rojo] + [/ COLOR] [COLOR blanco] [link_inteligente.param1] [/ COLOR] </title>
+<link> $ doregex [id] </link>
+<thumbnail> https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg </thumbnail>
+<fanart>https://i.imgur.com/VKGBowl.jpg</fanart>
+]]> </listrepeat>
+<expres> <! [CDATA [# $ pyFunction
+url = 'https://www.youtube.com/watch?v=EjxTFccVElU&list=PLESS4G5nwSFqIlLLpadKcr3gvZirBoqRW&ab_channel=xv.'
+importar re, seis
+$ doregex [conector_youtube]
+
+]]> </expres>
+<page> </page>
+</regex> 
+<regex>
+<nombre> conector_youtube </name>
+<expres> <! [CDATA [# $ pyFunction
+importar re, solicitudes, base64, shutil, aleatorio
+de kodi_six importar xbmc, xbmcgui, xbmcaddon, xbmcvfs
+de six.moves import urllib_request
+importar seis
+def GetLSProData (page_data, Cookie_Jar, m):
+    pasta = request.get ('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verificar = Falso) .text
+    return six.ensure_str (pasta)
+]]> </expres>
+<page> </page>
+</regex>
+<regex>
+<nombre> id </nombre>
+<expres> <! [CDATA [# $ pyFunction
+importar resolveurl
+def GetLSProData (page_data, Cookie_Jar, m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  devolver resolveurl.resolve (url)
+]]> </expres>
+<page> </page>
+</regex>
+<thumbnail>https://i.imgur.com/VKGBowl.jpg</thumbnail>
+<fanart>https://i.imgur.com/VKGBowl.jpg</fanart>
+</item>
+
+
+
+<item>
+<title> [B][COLOR fuchsia]TANGO[/ COLOR] [/ B] </title>
+<link> $ doregex [link_inteligente] </link>
+<regex>
+<nombre> link_inteligente </name>
+<listrepeat> <! [CDATA [
+<title> [COLOR rojo] + [/ COLOR] [COLOR blanco] [link_inteligente.param1] [/ COLOR] </title>
+<link> $ doregex [id] </link>
+<thumbnail> https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg </thumbnail>
+<fanart>https://i.imgur.com/zTYFW3w.jpg</fanart>
+]]> </listrepeat>
+<expres> <! [CDATA [# $ pyFunction
+url = 'https://www.youtube.com/watch?v=iGlIcc6WjFs&list=PLE6429A02A41694CC&ab_channel=AcademiaDeBaile'
+importar re, seis
+$ doregex [conector_youtube]
+
+]]> </expres>
+<page> </page>
+</regex> 
+<regex>
+<nombre> conector_youtube </name>
+<expres> <! [CDATA [# $ pyFunction
+importar re, solicitudes, base64, shutil, aleatorio
+de kodi_six importar xbmc, xbmcgui, xbmcaddon, xbmcvfs
+de six.moves import urllib_request
+importar seis
+def GetLSProData (page_data, Cookie_Jar, m):
+    pasta = request.get ('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verificar = Falso) .text
+    return six.ensure_str (pasta)
+]]> </expres>
+<page> </page>
+</regex>
+<regex>
+<nombre> id </nombre>
+<expres> <! [CDATA [# $ pyFunction
+importar resolveurl
+def GetLSProData (page_data, Cookie_Jar, m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  devolver resolveurl.resolve (url)
+]]> </expres>
+<page> </page>
+</regex>
+<thumbnail>https://i.imgur.com/zTYFW3w.jpg</thumbnail>
+<fanart>https://i.imgur.com/zTYFW3w.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title> [B][COLOR aqua]TORREZDANCE(BAILES VARIADOS)[/ COLOR] [/ B] </title>
+<link> $ doregex [link_inteligente] </link>
+<regex>
+<nombre> link_inteligente </name>
+<listrepeat> <! [CDATA [
+<title> [COLOR rojo] + [/ COLOR] [COLOR blanco] [link_inteligente.param1] [/ COLOR] </title>
+<link> $ doregex [id] </link>
+<thumbnail> https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg </thumbnail>
+<fanart>https://yt3.ggpht.com/-8GsACYASEAg/AAAAAAAAAAI/AAAAAAAAAAA/SovEUwEiFMM/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</fanart>
+]]> </listrepeat>
+<expres> <! [CDATA [# $ pyFunction
+url = 'https://www.youtube.com/watch?v=2TPAgM008rI&list=UUs_eWcBrA51dK2uG2VyB3Pg&ab_channel=jdance'
+importar re, seis
+$ doregex [conector_youtube]
+
+]]> </expres>
+<page> </page>
+</regex> 
+<regex>
+<nombre> conector_youtube </name>
+<expres> <! [CDATA [# $ pyFunction
+importar re, solicitudes, base64, shutil, aleatorio
+de kodi_six importar xbmc, xbmcgui, xbmcaddon, xbmcvfs
+de six.moves import urllib_request
+importar seis
+def GetLSProData (page_data, Cookie_Jar, m):
+    pasta = request.get ('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verificar = Falso) .text
+    return six.ensure_str (pasta)
+]]> </expres>
+<page> </page>
+</regex>
+<regex>
+<nombre> id </nombre>
+<expres> <! [CDATA [# $ pyFunction
+importar resolveurl
+def GetLSProData (page_data, Cookie_Jar, m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  devolver resolveurl.resolve (url)
+]]> </expres>
+<page> </page>
+</regex>
+<thumbnail>https://yt3.ggpht.com/-8GsACYASEAg/AAAAAAAAAAI/AAAAAAAAAAA/SovEUwEiFMM/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/-8GsACYASEAg/AAAAAAAAAAI/AAAAAAAAAAA/SovEUwEiFMM/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</fanart>
+</item>
