@@ -1,50 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
 
 <item>
-<title> [B][COLOR fuchsia]Defensa Personal Femenina[/ COLOR] [/ B] </title>
-<link> $ doregex [link_inteligente] </link>
+<title>[B][COLOR fuchsia]Defensa Personal Femenina[/ COLOR] [/ B]</title>
+<link>$doregex[link_inteligente]</link>
 <regex>
-<nombre> link_inteligente </name>
-<listrepeat> <! [CDATA [
-<title> [COLOR rojo] + [/ COLOR] [COLOR blanco] [link_inteligente.param1] [/ COLOR] </title>
-<link> $ doregex [id] </link>
-<thumbnail> https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg </thumbnail>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR red]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
 <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
-]]> </listrepeat>
-<expres> <! [CDATA [# $ pyFunction
-url = 'https://www.youtube.com/watch?v=O6n8mHY8TJo&list=PL-WHuiw9GA8CDBJzqvfYCP66jbq2k1hL7&ab_channel=AprendeDefensaPersonal'
-importar re, seis
-$ doregex [conector_youtube]
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'https://www.youtube.com/watch?v=O6n8mHY8TJo&list=PL-WHuiw9GA8CDBJzqvfYCP66jbq2k1hL7'
+import re,six
+$doregex[conector_youtube]
 
-]]> </expres>
-<page> </page>
+]]></expres>
+<page></page>
 </regex> 
 <regex>
-<nombre> conector_youtube </name>
-<expres> <! [CDATA [# $ pyFunction
-importar re, solicitudes, base64, shutil, aleatorio
-de kodi_six importar xbmc, xbmcgui, xbmcaddon, xbmcvfs
-de six.moves import urllib_request
-importar seis
-def GetLSProData (page_data, Cookie_Jar, m):
-    pasta = request.get ('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verificar = Falso) .text
-    return six.ensure_str (pasta)
-]]> </expres>
-<page> </page>
+<name>conector_youtube</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64,shutil,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+def GetLSProData(page_data,Cookie_Jar,m):
+    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube', verify=False).text
+    return six.ensure_str(pasta)
+]]></expres>
+<page></page>
 </regex>
 <regex>
-<nombre> id </nombre>
-<expres> <! [CDATA [# $ pyFunction
-importar resolveurl
-def GetLSProData (page_data, Cookie_Jar, m):
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
   url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
-  devolver resolveurl.resolve (url)
-]]> </expres>
-<page> </page>
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
 </regex>
 <thumbnail>https://i.imgur.com/nZTV8EI.jpg</thumbnail>
 <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 </item>
+
 
 
 
@@ -482,3 +484,8 @@ def GetLSProData (page_data, Cookie_Jar, m):
 <thumbnail>https://i.imgur.com/nZTV8EI.jpg</thumbnail>
 <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 </item>
+
+    
+    
+    
+</items>
