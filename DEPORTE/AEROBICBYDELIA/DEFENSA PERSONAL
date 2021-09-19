@@ -48,10 +48,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-
-
-
-
 <item>
 <title> [B][COLOR aqua]Defensa Personal Contra Armas de Fuego, Cuchillos y Palos.[/ COLOR] [/ B] </title>
 <link> $ doregex [link_inteligente] </link>
@@ -64,7 +60,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 ]]> </listrepeat>
 <expres> <! [CDATA [# $ pyFunction
-url = 'https://www.youtube.com/watch?v=P67nE-dFHh8&list=PL-WHuiw9GA8CiydEIiT0ydKN_MPokCX3b&ab_channel=AprendeDefensaPersonal'
+url = 'https://www.youtube.com/watch?v=P67nE-dFHh8&list=PL-WHuiw9GA8CiydEIiT0ydKN_MPokCX3b'
 importar re, seis
 $ doregex [conector_youtube]
 
@@ -112,7 +108,7 @@ def GetLSProData (page_data, Cookie_Jar, m):
 <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 ]]> </listrepeat>
 <expres> <! [CDATA [# $ pyFunction
-url = 'https://www.youtube.com/watch?v=6032eND5dAY&list=PL-WHuiw9GA8C53a0oBTNxH3_sa6ixsErC&ab_channel=AprendeDefensaPersonal'
+url = 'https://www.youtube.com/watch?v=6032eND5dAY&list=PL-WHuiw9GA8C53a0oBTNxH3_sa6ixsErC'
 importar re, seis
 $ doregex [conector_youtube]
 
@@ -160,7 +156,7 @@ def GetLSProData (page_data, Cookie_Jar, m):
 <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 ]]> </listrepeat>
 <expres> <! [CDATA [# $ pyFunction
-url = 'https://www.youtube.com/watch?v=uSpdB14fpYY&list=PL-WHuiw9GA8D0kiMpiqfzmqvVkex_1ySW&ab_channel=AprendeDefensaPersonal'
+url = 'https://www.youtube.com/watch?v=uSpdB14fpYY&list=PL-WHuiw9GA8D0kiMpiqfzmqvVkex_1ySW'
 importar re, seis
 $ doregex [conector_youtube]
 
@@ -209,7 +205,7 @@ def GetLSProData (page_data, Cookie_Jar, m):
 <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 ]]> </listrepeat>
 <expres> <! [CDATA [# $ pyFunction
-url = 'https://www.youtube.com/watch?v=yCso8J6MnbM&list=PL-WHuiw9GA8A-Hv9LPQMsYPGSDrDu4ig9&ab_channel=AprendeDefensaPersonal'
+url = 'https://www.youtube.com/watch?v=yCso8J6MnbM&list=PL-WHuiw9GA8A-Hv9LPQMsYPGSDrDu4ig9'
 importar re, seis
 $ doregex [conector_youtube]
 
@@ -259,7 +255,7 @@ def GetLSProData (page_data, Cookie_Jar, m):
 <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 ]]> </listrepeat>
 <expres> <! [CDATA [# $ pyFunction
-url = 'https://www.youtube.com/watch?v=NybLNZTR9t8&list=PL-WHuiw9GA8AyFjQReW9UBhDJeiR-lOf4&ab_channel=AprendeDefensaPersonal'
+url = 'https://www.youtube.com/watch?v=NybLNZTR9t8&list=PL-WHuiw9GA8AyFjQReW9UBhDJeiR-lOf4'
 importar re, seis
 $ doregex [conector_youtube]
 
@@ -306,7 +302,7 @@ def GetLSProData (page_data, Cookie_Jar, m):
 <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 ]]> </listrepeat>
 <expres> <! [CDATA [# $ pyFunction
-url = 'https://www.youtube.com/watch?v=U-jRPATLpC0&list=UUN-6jtLq4BKoVn5V1vH6Lpg&ab_channel=AprendeaDefenderte'
+url = 'https://www.youtube.com/watch?v=U-jRPATLpC0&list=UUN-6jtLq4BKoVn5V1vH6Lpg'
 importar re, seis
 $ doregex [conector_youtube]
 
@@ -353,7 +349,7 @@ def GetLSProData (page_data, Cookie_Jar, m):
 <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 ]]> </listrepeat>
 <expres> <! [CDATA [# $ pyFunction
-url = 'https://www.youtube.com/watch?v=tECb9eXCOR0&list=PLkzQ_gL7fD9Tf8AFlpqgE86BCKKZrEBPY&ab_channel=RadioCinema'
+url = 'https://www.youtube.com/watch?v=tECb9eXCOR0&list=PLkzQ_gL7fD9Tf8AFlpqgE86BCKKZrEBPY'
 importar re, seis
 $ doregex [conector_youtube]
 
@@ -403,7 +399,7 @@ def GetLSProData (page_data, Cookie_Jar, m):
 <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 ]]> </listrepeat>
 <expres> <! [CDATA [# $ pyFunction
-url = 'https://www.youtube.com/watch?v=nfurLRutt-c&list=PLkzQ_gL7fD9QLKpWbh0hcM3c3GiRymc8I&ab_channel=FamiliaWushuLe%C3%B3nNrisingha'
+url = 'https://www.youtube.com/watch?v=nfurLRutt-c&list=PLkzQ_gL7fD9QLKpWbh0hcM3c3GiRymc8I'
 importar re, seis
 $ doregex [conector_youtube]
 
@@ -451,7 +447,7 @@ def GetLSProData (page_data, Cookie_Jar, m):
 <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 ]]> </listrepeat>
 <expres> <! [CDATA [# $ pyFunction
-url = 'https://www.youtube.com/watch?v=iGMaIxqcSpU&list=PLsdhqmqbkMdHqX6gr1Qs08rgWeTHG8aHQ&ab_channel=DeportesUncomo'
+url = 'https://www.youtube.com/watch?v=iGMaIxqcSpU&list=PLsdhqmqbkMdHqX6gr1Qs08rgWeTHG8aHQ'
 importar re, seis
 $ doregex [conector_youtube]
 
@@ -484,8 +480,6 @@ def GetLSProData (page_data, Cookie_Jar, m):
 <thumbnail>https://i.imgur.com/nZTV8EI.jpg</thumbnail>
 <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 </item>
-
-    
-    
+   
     
 </items>
