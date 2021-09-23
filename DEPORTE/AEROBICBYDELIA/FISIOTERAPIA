@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
 
+
 <item>
 <title>[B][COLOR violet]FISIOTERAPIA A TU ALCANCE[/COLOR][/B]</title>   
 <link>$doregex[link_inteligente]</link>
@@ -47,4 +48,4 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/YGttUZj.jpg</fanart>
 </item>
     
-  </item>  
+</items>  
