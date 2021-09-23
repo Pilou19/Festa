@@ -2,7 +2,6 @@
 <items>
 
 
-<SetViewMode>503</SetViewMode>
 
 <item>
 <title>[B][COLOR fuchia] BACHATA[/ COLOR] [/ B]</title>
@@ -534,5 +533,3 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>		
     
 </items>    
-
-
