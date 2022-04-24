@@ -103,8 +103,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>list2</name>
 <listrepeat><![CDATA[
-<title>[COLOR wite][list2.param3][/COLOR] </title>
-<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&origin=https://www.skylinewebcams.com&referer=https://www.skylinewebcams.com/</link>
+<title>[COLOR white][list2.param3][/COLOR] </title>
+<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&amp;origin=https://www.skylinewebcams.com&amp;referer=https://www.skylinewebcams.com/</link>
 editado
 <thumbnail>[list2.param2]</thumbnail>
 <fanart>[list2.param2]</fanart>
@@ -137,8 +137,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>list2</name>
 <listrepeat><![CDATA[
-<title>[COLOR wite][list2.param3][/COLOR] </title>
-<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&origin=https://www.skylinewebcams.com&referer=https://www.skylinewebcams.com/</link>
+<title>[COLOR white][list2.param3][/COLOR] </title>
+<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&amp;origin=https://www.skylinewebcams.com&amp;referer=https://www.skylinewebcams.com/</link>
 editado
 <thumbnail>[list2.param2]</thumbnail>
 <fanart>[list2.param2]</fanart>
@@ -170,8 +170,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>list2</name>
 <listrepeat><![CDATA[
-<title>[COLOR wite][list2.param3][/COLOR] </title>
-<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&origin=https://www.skylinewebcams.com&referer=https://www.skylinewebcams.com/</link>
+<title>[COLOR white][list2.param3][/COLOR] </title>
+<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&amp;origin=https://www.skylinewebcams.com&amp;referer=https://www.skylinewebcams.com/</link>
 editado
 <thumbnail>[list2.param2]</thumbnail>
 <fanart>[list2.param2]</fanart>
@@ -203,8 +203,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>list2</name>
 <listrepeat><![CDATA[
-<title>[COLOR wite][list2.param3][/COLOR] </title>
-<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&origin=https://www.skylinewebcams.com&referer=https://www.skylinewebcams.com/</link>
+<title>[COLOR white][list2.param3][/COLOR] </title>
+<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&amp;origin=https://www.skylinewebcams.com&amp;referer=https://www.skylinewebcams.com/</link>
 editado
 <thumbnail>[list2.param2]</thumbnail>
 <fanart>[list2.param2]</fanart>
@@ -237,8 +237,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>list2</name>
 <listrepeat><![CDATA[
-<title>[COLOR wite][list2.param3][/COLOR] </title>
-<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&origin=https://www.skylinewebcams.com&referer=https://www.skylinewebcams.com/</link>
+<title>[COLOR white][list2.param3][/COLOR] </title>
+<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&amp;origin=https://www.skylinewebcams.com&amp;referer=https://www.skylinewebcams.com/</link>
 editado
 <thumbnail>[list2.param2]</thumbnail>
 <fanart>[list2.param2]</fanart>
@@ -271,8 +271,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>list2</name>
 <listrepeat><![CDATA[
-<title>[COLOR wite][list2.param3][/COLOR] </title>
-<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&origin=https://www.skylinewebcams.com&referer=https://www.skylinewebcams.com/</link>
+<title>[COLOR white][list2.param3][/COLOR] </title>
+<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&amp;origin=https://www.skylinewebcams.com&amp;referer=https://www.skylinewebcams.com/</link>
 editado
 <thumbnail>[list2.param2]</thumbnail>
 <fanart>[list2.param2]</fanart>
@@ -304,8 +304,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>list2</name>
 <listrepeat><![CDATA[
-<title>[COLOR wite][list2.param3][/COLOR] </title>
-<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&origin=https://www.skylinewebcams.com&referer=https://www.skylinewebcams.com/</link>
+<title>[COLOR white][list2.param3][/COLOR] </title>
+<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&amp;origin=https://www.skylinewebcams.com&amp;referer=https://www.skylinewebcams.com/</link>
 editado
 <thumbnail>[list2.param2]</thumbnail>
 <fanart>[list2.param2]</fanart>
@@ -337,8 +337,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>list2</name>
 <listrepeat><![CDATA[
-<title>[COLOR wite][list2.param3][/COLOR] </title>
-<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&origin=https://www.skylinewebcams.com&referer=https://www.skylinewebcams.com/</link>
+<title>[COLOR white][list2.param3][/COLOR] </title>
+<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&amp;origin=https://www.skylinewebcams.com&amp;referer=https://www.skylinewebcams.com/</link>
 editado
 <thumbnail>[list2.param2]</thumbnail>
 <fanart>[list2.param2]</fanart>
@@ -370,8 +370,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>list2</name>
 <listrepeat><![CDATA[
-<title>[COLOR wite][list2.param3][/COLOR] </title>
-<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&origin=https://www.skylinewebcams.com&referer=https://www.skylinewebcams.com/</link>
+<title>[COLOR white][list2.param3][/COLOR] </title>
+<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&amp;origin=https://www.skylinewebcams.com&amp;referer=https://www.skylinewebcams.com/</link>
 editado
 <thumbnail>[list2.param2]</thumbnail>
 <fanart>[list2.param2]</fanart>
@@ -403,8 +403,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>list2</name>
 <listrepeat><![CDATA[
-<title>[COLOR wite][list2.param3][/COLOR] </title>
-<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&origin=https://www.skylinewebcams.com&referer=https://www.skylinewebcams.com/</link>
+<title>[COLOR white][list2.param3][/COLOR] </title>
+<link>https://hd-auth.skylinewebcams.com/live.m3u8?a=$doregex[getM3u8]|user-agent=ipad&amp;origin=https://www.skylinewebcams.com&amp;referer=https://www.skylinewebcams.com/</link>
 editado
 <thumbnail>[list2.param2]</thumbnail>
 <fanart>[list2.param2]</fanart>
